@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WedMeGood/static/css/main.41fe5e36.css",
+    "main.css": "/WedMeGood/static/css/main.21b1d936.css",
     "main.js": "/WedMeGood/static/js/main.1b473952.js",
     "static/media/decorated-banquet-hall-with-flowers.jpg": "/WedMeGood/static/media/decorated-banquet-hall-with-flowers.7c3b03f6ab985ff448f1.jpg",
     "static/media/swiper-6.jpg": "/WedMeGood/static/media/swiper-6.797b5264f4cc277d3251.jpg",
@@ -50,11 +50,11 @@
     "static/media/facebook.png": "/WedMeGood/static/media/facebook.795fce8e464693d7346d.png",
     "static/media/venue-bg-img-tetx.png": "/WedMeGood/static/media/venue-bg-img-tetx.0bbc13db16899cc16fff.png",
     "index.html": "/WedMeGood/index.html",
-    "main.41fe5e36.css.map": "/WedMeGood/static/css/main.41fe5e36.css.map",
+    "main.21b1d936.css.map": "/WedMeGood/static/css/main.21b1d936.css.map",
     "main.1b473952.js.map": "/WedMeGood/static/js/main.1b473952.js.map"
   },
   "entrypoints": [
-    "static/css/main.41fe5e36.css",
+    "static/css/main.21b1d936.css",
     "static/js/main.1b473952.js"
   ]
 }
