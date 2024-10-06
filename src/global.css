@@ -1,0 +1,1646 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d38da9;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b4245d;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR SECTION START HERE  */
+
+.Navbar {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar-section {
+    background-color: #e72e77;
+    padding: 1.5rem 3rem;
+    color: #fff;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0;
+}
+
+.Logo img {
+    width: 20rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.Nav-List {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Nav-List .List a:hover {
+    color: #d38da9;
+    transition: .3s ease;
+}
+
+.Nav-List .List a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.Nav-Login-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.Nav-Login-btn button:hover {
+    border: .1rem solid #fff;
+    background-color: transparent;
+    transition: .3s ease;
+}
+
+.Nav-Login-btn button {
+    padding: .7rem 4rem;
+    background-color: #b4245d;
+    border-radius: 2rem;
+    border: .1rem solid #b4245d;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Nav-Login {
+    display: flex;
+    align-items: center;
+}
+
+.search-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.search-btn-container:hover {
+    border: .1rem solid #fff;
+    background-color: transparent;
+    transition: .3s ease;
+}
+
+
+.search-btn-container {
+    width: 4rem;
+    height: 4rem;
+    background-color: #b4245d;
+    border-radius: 50%;
+    border: .1rem solid #b4245d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.search-btn-container lord-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+    color: #fff;
+}
+.active{
+    color: #d38da9 !important;
+    cursor: default !important; 
+}
+
+
+/* NAVBAR SECTION END HERE  */
+
+/* HOME CSS SECTION START FROM HERE */
+
+.Home-section {
+    height: 70vh;
+    background-image: url('./Components/Image/wed-home-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    background-image: linear-gradient(to top, #000000bd, #ffffff00);
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+.Home-head {
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.Home-heading {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Home-sub-heading {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Home-Input {
+    display: flex;
+}
+
+.input-1 button lord-icon {
+    width: 3rem;
+    height: 4rem;
+}
+
+.input-1 button {
+    width: 5rem;
+    height: 5rem;
+    border: #b4245d .1rem solid;
+    border-left: none;
+    background-color: #fff;
+    color: #e72e77;
+    display: flex;
+    align-items: center;
+}
+
+.input-1 {
+    display: flex;
+}
+
+.input-1 input {
+    border: #b4245d .1rem solid;
+    border-right: none;
+    width: 32rem;
+    height: 5rem;
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    outline: none;
+}
+
+.get-started-btn button:hover {
+    background-color: #fff;
+    color: #e72e77;
+    transition: 0.3s ease;
+}
+
+.get-started-btn button {
+    padding: 1.23rem 4rem;
+    background-color: #e72e77;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: .1rem solid #e72e77;
+}
+
+.Home-para {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 1.5rem 0 3rem 0;
+}
+
+.second-page {
+    padding: 5rem 0;
+}
+
+.second-page-heading {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+
+/* SWIPER CSS START FROM HERE */
+.swiper-section-container-1 {
+    background-image: url('./Components/Image/mumbai.jpg');
+
+}
+
+.swiper-section-container-2 {
+    background-image: url('./Components/Image/Bangalore.jpeg');
+
+}
+
+.swiper-section-container-3 {
+    background-image: url('./Components/Image/California.jpg');
+}
+
+.swiper-section-container-4 {
+    background-image: url('./Components/Image/Florida.jpg');
+}
+
+.swiper-section-container-5 {
+    background-image: url('./Components/Image/Fransisco.jpg');
+}
+
+.swiper-section-container-1,
+.swiper-section-container-2,
+.swiper-section-container-3,
+.swiper-section-container-4,
+.swiper-section-container-5,
+.swiper-section-container-9,
+.swiper-section-container-6,
+.swiper-section-container-7,
+.swiper-section-container-8,
+.swiper-section-container-10 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+
+.slider-content {
+    color: #fff;
+    height: 30rem;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: end;
+    transition: 0.3s ease;
+    background-image: linear-gradient(to top, #000000eb, #ffffff00);
+}
+
+.slider-content:hover .slider-item {
+    padding: 0 2rem 3rem 2rem;
+}
+
+.slider-content:hover {
+    background-image: linear-gradient(to top, #000000, #ffffff00);
+}
+
+.slider-item {
+    padding: 0 2rem 1rem 2rem;
+    transition: 0.3s ease;
+}
+
+.slider-para {
+    font-size: 1.2rem;
+}
+
+.slider-head {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+
+.swiper-section-container-6 {
+    background-image: url('./Components/Image/swiper-6.jpg');
+    border-radius: 2rem;
+
+
+}
+
+.swiper-section-container-10 {
+    background-image: url('./Components/Image/swiper-7.jpg');
+    border-radius: 2rem;
+}
+
+.swiper-section-container-7 {
+    background-image: url('./Components/Image/swiper-8.jpg');
+    border-radius: 2rem;
+
+
+}
+
+.swiper-section-container-8 {
+    background-image: url('./Components/Image/swiper-9.jpg');
+    border-radius: 2rem;
+
+}
+
+.swiper-section-container-9 {
+    background-image: url('./Components/Image/swiper-10.jpg');
+    border-radius: 2rem;
+}
+
+.cerimony-head {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #e72e77;
+    margin-top: .7rem;
+    padding-left: 1rem;
+}
+
+
+
+.forth-page-section {
+    padding: 5rem 0;
+}
+
+.forth-heading {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+
+.box-img-1 {
+    overflow: hidden;
+    border-radius: 8rem 0 0 8rem;
+}
+
+.forth-page-box:hover .box-img-1 img,
+.forth-page-box-2:hover .box-img-1 img,
+.forth-page-box-3:hover .box-img-1 img,
+.forth-page-box-4:hover .box-img-1 img,
+.forth-page-box-5:hover .box-img-1 img,
+.forth-page-box-6:hover .box-img-1 img {
+    transform: scale(110%);
+}
+
+.box-img-1 img {
+    transition: .5s ease;
+}
+
+.forth-page-box {
+    background-color: #d8dffc;
+}
+
+.forth-page-box-2 {
+    background-color: #f4d5c2;
+}
+
+.forth-page-box-3 {
+    background-color: #dfb2ad;
+}
+
+.forth-page-box-4 {
+    background-color: #d8dffc;
+}
+
+.forth-page-box-5 {
+    background-color: #f6b896;
+}
+
+.forth-page-box-6 {
+    background-color: #cfcdb8;
+}
+
+.forth-page-box,
+.forth-page-box-2,
+.forth-page-box-3,
+.forth-page-box-4,
+.forth-page-box-5,
+.forth-page-box-6 {
+    width: calc(50% - 20px);
+    display: flex;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gap20 {
+    gap: 15px;
+}
+
+.box-img {
+    display: flex;
+    justify-content: end;
+}
+
+.box-text {
+    color: #4a4a4a;
+    padding-left: 3rem;
+}
+
+.box-text-para {
+    font-size: 1.4rem;
+
+}
+
+.box-text-head {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+
+.fifth-page-section {
+    padding: 5rem 0;
+}
+
+.fifth-page-head {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+
+.card:hover .card-img-overlay-1 {
+    visibility: visible;
+    transition: .3s ease;
+   
+}
+
+.card:hover .card-img img {
+    transform: scale(1.1);
+   
+}
+
+.card-img img {
+    height: auto;
+    width: 100%;
+    transition: .3s ease;
+}
+
+.card-img {
+    overflow: clip;
+    border-radius: 1rem;
+    width: 100%;
+    height: 23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-overlay-1 {
+    background-image: linear-gradient(to top, #000000bd, #ffffff00);
+    border-radius: 1rem;
+    visibility: hidden;
+    height: 20rem;
+    position: absolute;
+    z-index: 5;
+    width: 98%;
+    transition: .3s ease;
+}
+
+.card {
+    padding: .5rem;
+    margin-top: 1.5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.card-text {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-head {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+}
+
+.card-body button:hover {
+    background-color: #e72e77;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.card-body button {
+    padding: 1rem 4rem;
+    background-color: #fff;
+    color: #b4245d;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: .1rem solid #b4245d;
+    margin-top: 1rem;
+}
+
+.card-img-overlay-1 {
+    height: 23rem;
+}
+
+
+
+
+.sixth-page-section{
+    padding: 5rem 0;
+}
+
+.sixth-page{
+    background-color: #ffebe8;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.sixth-page-img img{
+    width: 20rem;
+    height: auto;
+}
+.sixth-heading{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #b4245d;
+    padding-left: 1rem;
+}
+.sixth-items-container{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+.sixth-item{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+.sixth-page-head{
+    display: flex;
+    justify-content: center;
+}
+.sixth-item-icon lord-icon{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.sixth-item-text{
+    color: #e72e77;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.sixth-sms-text{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #b4245d;
+}
+.sixth-sms-content{
+    margin-top: 3rem;
+}
+.sixth-sms-num-container{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.sms-flag{
+    margin-right: .5rem;
+}
+.sms-flag .lored-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.sms-91{
+    color: #e72e77;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.sms-input {
+    margin-left: 1rem;
+}
+.sms-input input{
+    border: none;
+    background-color: transparent;
+    border-bottom: .1rem solid #e72e77;
+    width: 30rem;
+    height: 2rem;
+    outline: none;
+    color: #e72e77;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+.download-app-container button:hover{
+    background-color: #fff;
+    color: #e72e77;
+   
+
+}
+.download-app-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.download-app-container button{
+    padding: 1rem 4rem;
+    color: #fff;
+    transition: 0.3s ease;
+    background-color: #e72e77;
+    font-size: 2rem;
+    font-weight: 400;
+    border-radius: 4rem;
+    border: .1rem solid #e72e77;
+    
+}
+.os-container lord-icon{
+    width: 4rem;
+    height: 4rem;
+}
+.os-container .apple{
+    margin-right: 3rem;
+}
+.os-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+
+
+.seven-page-section{
+    padding: 5rem 0;
+}
+.seven-heading{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-bottom: 1.5rem;
+}
+.seven-slider{
+    background-color: #fff;
+    border: .1rem solid #909090;
+    border-radius: 1rem;
+}
+.swiper-section-container-seven .slider-content-1{
+    background-image: url('./Components/Image/real/S_R-141.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0 0 ;
+    height: 25rem;
+}
+.swiper-section-container-seven .slider-content-2{
+    background-image: url('./Components/Image/real/19.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0 0 ;
+    height: 25rem;
+}
+.swiper-section-container-seven .slider-content-3{
+    background-image: url('./Components/Image/real/A&K-632.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0 0 ;
+    height: 25rem;
+}
+.swiper-section-container-seven .slider-content-4{
+    background-image: url('./Components/Image/real/BID03378_websize.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0 0 ;
+    height: 25rem;
+}
+.swiper-section-container-seven .slider-content-5{
+    background-image: url('./Components/Image/real/LAK00778.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0 0 ;
+    height: 25rem;
+}
+.cerimony-head-seven{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000;
+}
+.seven-text-container{
+    padding: 1rem 4rem  2rem 3rem;
+}
+.cerimony-para-seven{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    margin-top: .5rem;
+}
+.cerimony-date-seven{
+    font-weight: 500;
+    color: #909090;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+/* HOME CSS SECTION END FROM HERE */
+
+
+/* ABOUT PAGE CSS START HERE */
+.about-home-section{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-home{
+    display: flex;
+    justify-content: center;
+}
+.about-heading img{
+    width: 35rem;
+    height: auto;
+}
+.about-para{
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.about-connect-head{
+    display: flex;
+    margin-top: 1rem;
+}
+.connect-icon-container{
+    display: flex;
+    justify-content: center;
+}
+.connect-icon{
+    display: flex;
+    justify-content: center;
+}
+.connect-icon img:hover{
+    transform: scale(1.1);
+    transition: .3s ease;
+}
+.connect-icon img{
+    width: 3rem;
+    cursor: pointer;
+    height: auto;
+}
+.connect-heading{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #e72e77;
+}
+
+.about-second-bg{
+    background-image: url('./Components/Image/California.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.about-second-bg-overley{
+    height: 100%;
+    background-color: #000000a6;
+}
+/* ABOUT PAGE CSS END HERE */
+
+/* VANUE SECTION START FROM HERE */
+.our-service-page-section {
+    padding: 5rem 0;
+}
+.venue-home-bg{
+    background-image: url('./Components/Image/Venue-img/venue-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.venue-head-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.venue-home-bg-overley .venue-logo{
+    width: 9rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.venue-home-bg-overley img{
+    width: 22rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.venue-home-bg-overley .slogal{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-left: .8rem;
+}
+.venue-logo-img-text{
+    line-height: 1rem;
+}
+.venue-home-bg-overley{
+    background-color: #000000a9;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+.our-service-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #e72e77;
+}
+.service-para{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+    line-height: 2rem;
+}
+.our-service-card-container{
+    margin-top: 5rem;
+}
+.our-service-head , .our-service-para{
+    display: flex;
+    justify-content: center;
+}
+.our-service-line{
+    display: flex;
+    justify-content: center;
+}
+.our-service-line span{
+    width: 15rem;
+    height: .12rem;
+    background-color: #e72e77;
+    margin: .5rem 0 2rem 0;
+}
+.our-service-container{
+    text-align: center;
+}
+.our-service-card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+}
+.card-icon .lord-icon{
+    width: 7rem;
+    height: 7rem;
+}
+.card-1{
+    width: 40rem;
+    height: 35rem;
+    border: .1rem solid #e72e77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Components/Image/Venue-img/relax-area-resort.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-2{
+    width: 40rem;
+    height: 35rem;
+    border: .1rem solid #e72e77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Components/Image/Venue-img/decorated-banquet-hall-with-flowers.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-3{
+    width: 40rem;
+    height: 35rem;
+    border: .1rem solid #e72e77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Components/Image/Venue-img/venue-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-4{
+    width: 40rem;
+    height: 35rem;
+    border: .1rem solid #e72e77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Components/Image/Venue-img/relax-area-resort.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-5{
+    width: 40rem;
+    height: 35rem;
+    border: .1rem solid #e72e77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Components/Image/Venue-img/movie-night-by-pool-whole-family.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-6{
+    width: 40rem;
+    height: 35rem;
+    border: .1rem solid #e72e77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Components/Image/Venue-img/modern-luxury-bedroom-suite-bathroom.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-1-overley:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    transition: .3s ease;
+    background-color: #e72e77;
+}
+.card-1-overley{
+    background-color: #0000009b;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.card-1-heading{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.card-para {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 2rem;
+    line-height: 1.5rem;
+}
+
+
+/* VENUE SECOND PAGE START FROM HERE */
+
+.venue-second-page-section{
+    padding: 10rem 0;
+    background-color: #d3ebeb;
+    display: flex;
+    align-items: center;
+}
+.second-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #e72e77;
+}
+.venue-second-container{
+    display: flex;
+    justify-content: center;
+}
+.second-head{
+    text-align: center;
+}
+.second-para{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.second-page-card-container{
+    margin-top: 5rem;
+}
+.card-content-2:hover .card-img-1 img{
+    transform: scale(1.1);
+    transition: .3s ease;
+}
+.card-content-2{
+    display: flex;
+    align-items: center;
+    height: 35rem;
+    background-color: #f6f5f1;
+    margin-top: 2rem;
+}
+.card-img-1{
+    background-image: url('./Components/Image/Venue-img/relax-area-resort.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.card-img-2{
+    background-image: url('./Components/Image/Venue-img/6772.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.card-img-3{
+    background-image: url('./Components/Image/Venue-img/7454.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.card-text{
+    padding: 0 2rem;
+}
+.card-head{
+    font-size: 2.5rem;
+    color: #e72e77;
+    font-weight: 500;
+}
+.card-para-2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.7rem;
+}
+
+/* VENUE THIRD PAGE CSS START FROM HERE */
+
+.venue-third-section{
+    padding: 6rem 0;
+}
+.venue-third-page{
+    background-color: #ffebe8;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    text-align: center;
+}
+.vanue-third-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #e72e77;
+}
+.vanue-third-para{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.vanue-third-button button:hover{
+    background-color: #fff;
+    color: #e72e77;
+    transition: .3s ease;
+}
+.vanue-third-button {
+    margin-top: 2.5rem;
+}
+.vanue-third-button button{
+    padding: 1rem 4rem;
+    background-color: #e72e77;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    border: .1rem solid #e72e77;
+}
+
+
+/* VANUE SECTION END FROM HERE */
+
+
+/* GALLERY CSS SECTION START FROM HERE */
+
+.Gallery-section{
+    background-image: url('./Components/Image/Gallery/Gallery_bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.height40{
+    height: 300px;
+    width: 420px;
+}
+.Home-head-container{
+    display: flex;
+}
+.galerry-img-2{
+    display: flex;
+}
+.Home-text-content{
+    display: flex;
+    align-items: center;
+}
+.Home-main-heading {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #e72e77;
+    line-height: 5rem;
+}
+
+.gallery-main-img img{
+    width: 100%;
+    height: 100%;
+}
+.gallery-main-img{
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+}
+.galeery-sub-img-content {
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.galeery-sub-img-content img{
+    width: 100%;
+    height: auto;
+}
+.Home-sub-para {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #e72e77;
+    line-height: 1.8rem;
+    margin-top: 2rem;
+}
+.upload-container{
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+}
+.upload-text{
+    font-size: 2rem;
+    color: #e72e77;
+    font-weight: 500;
+}
+.upload-btn{
+    display: flex;
+    margin-top: 1rem;
+}
+.upload-btn button:hover{
+    background-color: #fff;
+    color: #e72e77;
+    transition: .3s ease;
+}
+/* input[type="file"] {
+    display: none;
+  } */
+.upload-btn button{
+    padding: 1rem 4rem;
+    border-radius: 2.5rem;
+    border: .1rem solid #e72e77;
+    color: #fff;
+    background-color: #e72e77;
+    font-size: 1.5rem;
+}
+.upload-icon-container{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.upload-icon .lord-icon{
+    width: 30px;
+    height: 30px;
+}
+.upload-icon{
+    display: flex;
+    margin: 0 2rem;
+}
+
+/* SECOND PAGE CSS START FROM HERE */
+
+.second-page-section{
+    padding: 5rem 0;
+    background-color: #e6f5f0;
+}
+.gallery-second-page{
+    display: flex;
+    padding: 1rem;
+    background-color: #fff;
+}
+.second-page-sub-img-container , .second-page-sub-img-container-2{
+    display: flex;
+}
+.second-page-main-img {
+    display: flex;
+    align-items: center;
+    
+}
+.second-page-sub-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.second-page-main-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.second-sub-img img {
+    width: 100%;
+    height: 23rem;
+    object-fit: cover;
+}
+
+
+.Third-page-section{
+    display: flex;
+    align-items: center;
+}
+.Third-img-container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 0;
+}
+.Third-img-1{
+    background-image: url('./Components/Image/Gallery/Third-img-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+.Third-img-2{
+    background-image: url('./Components/Image/Gallery/Third-img-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+
+.Third-img-3{
+    background-image: url('./Components/Image/Gallery/Third-img-5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+.Third-img-4{
+    background-image: url('./Components/Image/Gallery/Third-img-6.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+
+.Forth-img-container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 0;
+}
+.Forth-page-section{
+    display: flex;
+    align-items: center;
+}
+
+
+.memory-section{
+    padding: 10rem;
+    background-color: #d3ebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.memory-heading {
+    font-size: 4rem;
+    color: #e72e77;
+    font-weight: 700;
+}
+.memory-para {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: #e72e77;
+    font-weight: 500;
+}
+.connect-memory{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+
+}
+.connect-icon-container button:hover{
+    background-color: #fff;
+    transition: .3s ease;
+    color: #e72e77;
+}
+.connect-icon-container button{
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #e72e77;
+    font-weight: 400;
+    padding: 1rem 4rem;
+    border: .1rem solid #e72e77;
+    border-radius: 2.5rem;
+}
+.connect-icon-container{
+    justify-content: center;
+    display: flex;
+}
+.connect-icon{
+    display: flex;
+    justify-content: end;
+}
+.connect-icon img{
+    width: 2.5rem;
+    height: auto;
+}
+.connect-head{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #e72e77;
+}
+
+
+/* GALLERY CSS SECTION END FROM HERE */
+
+
+/* CONTACT PAGE CSS START FROM HERE */
+.contact-section{
+    height: 100vh;
+    background-image: url('./Components/Image/Gallery/Gallery_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-page ,.contact-img-container ,.contact-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contact-img-container lord-icon{
+  width: 50rem;
+  height: 50rem;
+}
+.contact-heading{
+  font-size: 4rem;
+  font-weight: 700;
+  color: #e72e77;
+}
+.contact-para{
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 400;
+}
+.contact-form-section{
+  margin-top: 3rem;
+}
+
+.contact-input{
+  margin-top: 1rem;
+  background-color: #fff;
+  width: 45rem;
+  height: 4rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+
+}
+.contact-input input{
+  width: 40rem;
+  height: 3.5rem;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #e72e77;
+  background-color: transparent;
+  padding-left: 2rem;
+  outline: none;
+}
+.contact-num-container{
+  display: flex;
+}
+.contact-input-num{
+  width: 24.6rem;
+  height: 4rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+
+}
+.contact-num-container{
+  margin: 1rem 0;
+}
+.contact-input-num input , .contact-input-city input {
+  width: 15rem;
+  height: 3.5;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #e72e77;
+  background-color: transparent;
+  padding-left: 2rem;
+  outline: none;
+}
+.contact-input-city {
+  margin-left: 2rem;
+  width: 18rem;
+  height: 4rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+.contact-text-area textarea{
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #e72e77;
+  background-color: #fff;
+  padding: 2rem ;
+  outline: none;
+  border-radius: 2rem;
+}
+.contact-submit-btn{
+  display: flex;
+  margin: 1rem 0 0 13rem;
+}
+.contact-submit-btn button:hover{
+  background-color: #fff;
+  color: #e72e77;
+  transition: .3s ease;
+}
+.contact-submit-btn button{
+  padding: 1rem 4.5rem;
+  background-color: #e72e77;
+  border: .1rem solid #e72e77;
+  border-radius: 2.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+
+}
+/* CONTACT PAGE CSS END FROM HERE */
+
+
+
+/* FOOTER SECTION STAER FROM HERE */
+
+.footer-section {
+    padding: 5rem 0 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu-list {
+    display: flex;
+    color: #000;
+}
+
+.footer-liSt li a:hover {
+    color: #ff0000;
+}
+
+.footer-liSt li a {
+    text-decoration: none;
+    transition: .3s ease;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.footer-liSt li {
+    list-style: none;
+    padding: .2rem 0;
+}
+
+.footer-liSt {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-head {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #e72e77;
+    margin-bottom: .3rem;
+}
+
+.footer {
+    margin-top: 5rem;
+}
+
+.line {
+    height: 1px;
+    background-color: #c4c2c3;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.footer-logo img {
+    width: 20rem;
+    height: auto;
+}
+
+.footer-media {
+    display: flex;
+}
+
+.footer-media .icon img:hover {
+    transform: scale(1.1);
+    transition: .3s ease;
+}
+
+.footer-media .icon img {
+    width: 2.5rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.footer-slogal {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #e72e77;
+    padding-left: .8rem;
+    margin-top: .2rem;
+}
+
+.connect {
+    font-size: 1.6rem;
+    color: #e72e77;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.footer-social {
+    margin-top: 2rem;
+    margin-left: .8rem;
+}
+
+.up-btn .lord-icon {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.up-btn {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #e72e77;
+    color: #fff;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer SECTION CSS END HERE */
